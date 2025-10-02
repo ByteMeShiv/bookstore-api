@@ -5,7 +5,7 @@ from routers import book
 app = FastAPI(title="BookStore API")
 
 
-origins = ["https://your-frontend.vercel.app"]
+origins = ["https://bookstore-frontend-rust-ten.vercel.app/"]
 
 app.add_middleware(
     CORSMiddleware,
